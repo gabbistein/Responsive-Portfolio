@@ -1,0 +1,153 @@
+
+body {
+    background-image: url("../images/palm-leaf.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position:left top;
+    font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin:0 auto;
+}
+
+html {
+    overflow-y:scroll;
+}
+
+.headercontent {
+    width:960px;
+    margin: 0 auto;
+}
+
+.maincontainer {
+    background-color:#ffffff;
+    width:960px;
+    margin:0 auto;
+    border:1px solid #dddddd;
+    overflow:auto;
+    margin-bottom:25px;
+}
+
+header h1 {
+    display:inline-block;
+    background-color:#4aaaa5;
+    padding:30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+    margin:0 auto;
+    vertical-align:top;
+}
+
+header {
+    background-color:#ffffff;
+    border-bottom:1px solid #cccccc;
+    margin-bottom:25px;
+    width:100%;
+}
+
+nav {
+    float:right;
+    width:500px;
+    text-align:right;
+    margin-top:35px;
+}
+
+li {
+    display:inline;
+}
+
+li a {
+    text-decoration:none;
+    margin-left:5px;
+    margin-right:5px;
+    color:black;
+}
+
+li a:hover{
+    color:#2a615e;
+}
+
+h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+    font-weight:bold;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+
+.bodytext {
+    float:left;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    line-height:1.5;
+}
+
+.inline-image {
+    float:left;
+    margin:6.1px 15px 0 0;
+    border-radius:2.2px;
+}
+
+hr { 
+    display:block;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    margin-left:20px;
+    margin-right:20px;
+    border-style:inset;
+    border-width:1px;
+  }
+
+.row {
+      margin:0 20px 20px 20px;
+  }
+
+footer {
+      background-color:#666666;
+      border-top: 10px solid #4aaaa5;
+      color:#ffffffc7;
+      text-align:center;
+      clear:both;
+      position: absolute;
+      bottom:0;
+      width:100%;
+      padding: 20px 0 20px 0;
+  }
+
+textarea {
+      height:150px;
+  }
+
+.textfield {
+      width:905px;
+      margin-top:8px;
+      margin-bottom:8px;
+      padding:4px;
+  }
+
+.button {
+      border-radius:2px;
+      background-color:#4aaaa5;
+      color:#ffffff;
+      border: 2px solid #47a39f;
+      padding:8px;
+      padding-left:20px;
+      padding-right:20px;
+  }
+
+.button:hover {
+      background-color:#5acec8;
+      border:2px solid #52bbb6;       
+  }
+
+.picture {
+    position:relative;
+    margin-right:15px;
+    margin-bottom:15px;
+    border-radius:2.2px;
+  }
+
